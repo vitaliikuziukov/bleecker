@@ -377,7 +377,7 @@ footer .number {
 
 
 #slider {
-	background: #ec1b24 url(/img/slider_bg.png) center center no-repeat;
+	background: #ec1b24 url(../img/slider_bg.png) center center no-repeat;
 	border-radius: 3px;
 	color: #fff;
 	height: 280px;
@@ -680,7 +680,7 @@ footer .number {
 
 
 #about {
-	background: transparent url(/img/about.png) top left no-repeat;
+	background: transparent url(../img/about.png) top left no-repeat;
 	margin: 50px 165px 0 0;
 	overflow: hidden;
 	padding: 40px 0;

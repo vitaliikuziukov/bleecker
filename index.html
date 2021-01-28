@@ -25,129 +25,143 @@
 	<body>
 		<main>
 			<header>
-				<div class="first">
-					<h1 class="title">КОМПАНИЯ ИНСТРУМЕНТ</h1>
-					<nav class="menu">
-						<ul class="nav-menu">
-							<li class="menu-item"><a href="">О компании</a></li>
-							<li class="menu-item"><a href="">Производители</a></li>
-							<li class="menu-item"><a href="">Акции</a></li>
-							<li class="menu-item"><a href="">Доставка</a></li>
-							<li class="menu-item"><a href="">ГОСТы</a></li>
-							<li class="menu-item"><a href="">Контакты</a></li>
-						</ul>
-					</nav>
-					<div class="lang">RU</div>
-					<div class="phone">
-						<select>
-							<option>+ 38 067 255 12 12</option>
-							<option>+ 38 050 711 88 43</option>
-							<option>+ 38 067 647 91 71</option>
-						</select>
+				<div class="container">
+					<div class="row">
+						<h1 class="title">КОМПАНИЯ ИНСТРУМЕНТ</h1>
+						<!--<div class="menu-button"></div>-->
+						<nav class="menu">
+							<ul class="nav-menu">
+								<li class="menu-item"><a href="">О компании</a></li>
+								<li class="menu-item"><a href="">Производители</a></li>
+								<li class="menu-item"><a href="">Акции</a></li>
+								<li class="menu-item"><a href="">Доставка</a></li>
+								<li class="menu-item"><a href="">ГОСТы</a></li>
+								<li class="menu-item"><a href="">Контакты</a></li>
+							</ul>
+						</nav>
+						<div class="lang">
+							<input class="switch" id="switch1" type="checkbox">
+							<label class="switch-for" for="switch1"></label>
+						</div>
+						<div>
+							<select class="phones">
+								<option>+ 38 067 255 12 12</option>
+								<option>+ 38 050 711 88 43</option>
+								<option>+ 38 067 647 91 71</option>
+							</select>
+						</div>
 					</div>
-				</div>
-				<div class="second">
-					<div class="catalog">Каталог товаров<i class="fas fa-bars"></i></div>
-					<div class="search"><input type="text" id="search" name="search" placeholder="Введите название или код товара"><i class="fas fa-search"></i></div>
-					<div class="cart"><i class="fas fa-shopping-basket"></i><span class="cart-count">25</span>Корзина</div>
+					<div class="row">
+						<div class="catalog">Каталог товаров<i class="fas fa-bars"></i></div>
+						<div class="search"><input type="text" id="search" name="search" placeholder="Введите название или код товара"><i class="fas fa-search"></i></div>
+						<div class="basket"><i class="fas fa-shopping-basket"></i><span class="basket-count">25</span>Корзина</div>
+					</div>
 				</div>
 			</header>
 			<section id="slider">
-				<h1>Инструмент <span style="color: #ec1b24; text-transform: uppercase;">Bosc</span> для любых целей и решений</h1>
-				<p style="font-size: 14px; line-height: 24px; margin: 10px 0 20px; width: 286px;">Неповторимое сочетание иновационных технологий и дизайна.</p>
-				<button>Выбрать</button>
-				<div class="bg-triangle"></div>
-				<img src="img/58335777_images_12199226265.png" alt="">
+				<div class="container">
+					<h1>Инструмент <span>Bosc</span> для любых целей и решений</h1>
+					<p>Неповторимое сочетание иновационных технологий и дизайна.</p>
+					<button>Выбрать</button>
+					<div class="bg-triangle"></div>
+					<img src="img/58335777_images_12199226265.png" alt="">
+				</div>
 			</section>
 			<section id="popular-category">
-				<h2>Популярные категории товаров</h2>
-				<ul class="popular-category-list">
-					<li style="background-image: url(img/category/big_8626__2.png);"><p>Твердосплавный инструмент</p><i class="fas fa-arrow-right"></i></li>
-					<li style="background-image: url(img/category/YT-44841.png);"><p>Металлорежущий инструмент</p><i class="fas fa-arrow-right"></i></li>
-					<li style="background-image: url(img/category/big_2491_brusok_sibrtex.png);"><p>Абразивный инструмент</p><i class="fas fa-arrow-right"></i></li>
-					<li style="background-image: url(img/category/big_6760_karandash_slavutivh_w.png);"><p>Алмазный инструмент</p><i class="fas fa-arrow-right"></i></li>
-					<li style="background-image: url(img/category/big_7628_shtangencirkuli_shc1.png);"><p>Измерительный инструмент</p><i class="fas fa-arrow-right"></i></li>
-					<li style="background-image: url(img/category/gross_17719_1.png);"><p>Слесарный, ручной инструмент</p><i class="fas fa-arrow-right"></i></li>
-					<li style="background-image: url(img/category/ps6_b10_kitay.png);"><p>Оснастка и приспособления</p><i class="fas fa-arrow-right"></i></li>
-					<li style="background-image: url(img/category/sd12-2li-ion.png);"><p>Электроинструмент</p><i class="fas fa-arrow-right"></i></li>
-				</ul>
-				<a href="" class="">Смотреть полный каталог</a>
+				<div class="container">
+					<h2>Популярные категории товаров</h2>
+					<ul class="popular-category-list">
+						<li style="background-image: url(img/category/big_8626__2.png);"><p>Твердосплавный инструмент</p><i class="fas fa-arrow-right"></i></li>
+						<li style="background-image: url(img/category/YT-44841.png);"><p>Металлорежущий инструмент</p><i class="fas fa-arrow-right"></i></li>
+						<li style="background-image: url(img/category/big_2491_brusok_sibrtex.png);"><p>Абразивный инструмент</p><i class="fas fa-arrow-right"></i></li>
+						<li style="background-image: url(img/category/big_6760_karandash_slavutivh_w.png);"><p>Алмазный инструмент</p><i class="fas fa-arrow-right"></i></li>
+						<li style="background-image: url(img/category/big_7628_shtangencirkuli_shc1.png);"><p>Измерительный инструмент</p><i class="fas fa-arrow-right"></i></li>
+						<li style="background-image: url(img/category/gross_17719_1.png);"><p>Слесарный, ручной инструмент</p><i class="fas fa-arrow-right"></i></li>
+						<li style="background-image: url(img/category/ps6_b10_kitay.png);"><p>Оснастка и приспособления</p><i class="fas fa-arrow-right"></i></li>
+						<li style="background-image: url(img/category/sd12-2li-ion.png);"><p>Электроинструмент</p><i class="fas fa-arrow-right"></i></li>
+					</ul>
+					<a href="">Смотреть полный каталог</a>
+				</div>
 			</section>
 			<section id="hits">
-				<div class="carousel">
-					<h2>Новинки</h2>
-					<div class="carousel-list">
-						<div class="carousel-wrap">
-							<div class="carousel-item">
-								<p class="image-block"><img src="img/hits/3099ec043c3f87288d988cbc7d91efc353ac149d_610492.png" alt=""></p>
-								<p class="availabel"><i class="fas fa-check"></i>В наличии</p>
-								<p class="name">Перфоратор Stark RH 900</p>
-								<p class="price-amount"><span class="price"><b>1 681,00</b> грн</span><span class="amount">за 1 шт</span></p>
-								<p class="line"></p>
-								<a href="" class="add-to-basket" title="В корзину"><i class="fas fa-shopping-basket"></i> В корзину</a>
-							</div>
-							<div class="carousel-item">
-								<p class="image-block"><img src="img/hits/YT-44841.png" alt=""></p>
-								<p class="availabel"><i class="fas fa-check"></i>В наличии</p>
-								<p class="name">Сверло-метчик М 4 х 0,7 мм. HSS M2, L=39/5 мм. HEX-1/4"</p>
-								<p class="price-amount"><span class="price"><b>132,00</b> грн</span><span class="amount">за 1 шт</span></p>
-								<p class="line"></p>
-								<a href="" class="add-to-basket" title="В корзину"><i class="fas fa-shopping-basket"></i> В корзину</a>
-							</div>
-							<div class="carousel-item">
-								<p class="image-block"><img src="img/hits/la_jns_12-1200x960.png" alt=""></p>
-								<p class="availabel"><i class="fas fa-check"></i>В наличии</p>
-								<p class="name">Домкрат гидравлический бутылочный 10 т.</p>
-								<p class="price-amount"><span class="price"><b>428,00</b> грн</span><span class="amount">за 1 шт</span></p>
-								<p class="line"></p>
-								<a href="" class="add-to-basket" title="В корзину"><i class="fas fa-shopping-basket"></i> В корзину</a>
-							</div>
-							<div class="carousel-item">
-								<p class="image-block"><img src="img/hits/58335777_images_12199226265.png" alt=""></p>
-								<p class="availabel"><i class="fas fa-check"></i>В наличии</p>
-								<p class="name">Гайковерт пневматический ударный G1260</p>
-								<p class="price-amount"><span class="price"><b>5 004,00</b> грн</span><span class="amount">за 1 шт</span></p>
-								<p class="line"></p>
-								<a href="" class="add-to-basket" title="В корзину"><i class="fas fa-shopping-basket"></i> В корзину</a>
+				<div class="container">
+					<div class="carousel">
+						<h2>Новинки</h2>
+						<div class="carousel-list">
+							<div class="carousel-wrap">
+								<div class="carousel-item">
+									<p class="image-block"><img src="img/hits/3099ec043c3f87288d988cbc7d91efc353ac149d_610492.png" alt=""></p>
+									<p class="availabel"><i class="fas fa-check"></i>В наличии</p>
+									<p class="name">Перфоратор Stark RH 900</p>
+									<p class="price-amount"><span class="price"><b>1 681,00</b> грн</span><span class="amount">за 1 шт</span></p>
+									<p class="line"></p>
+									<a href="" class="add-to-basket" title="В корзину"><i class="fas fa-shopping-basket"></i> В корзину</a>
+								</div>
+								<div class="carousel-item">
+									<p class="image-block"><img src="img/hits/YT-44841.png" alt=""></p>
+									<p class="availabel"><i class="fas fa-check"></i>В наличии</p>
+									<p class="name">Сверло-метчик М 4 х 0,7 мм. HSS M2, L=39/5 мм. HEX-1/4"</p>
+									<p class="price-amount"><span class="price"><b>132,00</b> грн</span><span class="amount">за 1 шт</span></p>
+									<p class="line"></p>
+									<a href="" class="add-to-basket" title="В корзину"><i class="fas fa-shopping-basket"></i> В корзину</a>
+								</div>
+								<div class="carousel-item">
+									<p class="image-block"><img src="img/hits/la_jns_12-1200x960.png" alt=""></p>
+									<p class="availabel"><i class="fas fa-check"></i>В наличии</p>
+									<p class="name">Домкрат гидравлический бутылочный 10 т.</p>
+									<p class="price-amount"><span class="price"><b>428,00</b> грн</span><span class="amount">за 1 шт</span></p>
+									<p class="line"></p>
+									<a href="" class="add-to-basket" title="В корзину"><i class="fas fa-shopping-basket"></i> В корзину</a>
+								</div>
+								<div class="carousel-item">
+									<p class="image-block"><img src="img/hits/58335777_images_12199226265.png" alt=""></p>
+									<p class="availabel"><i class="fas fa-check"></i>В наличии</p>
+									<p class="name">Гайковерт пневматический ударный G1260</p>
+									<p class="price-amount"><span class="price"><b>5 004,00</b> грн</span><span class="amount">за 1 шт</span></p>
+									<p class="line"></p>
+									<a href="" class="add-to-basket" title="В корзину"><i class="fas fa-shopping-basket"></i> В корзину</a>
+								</div>
 							</div>
 						</div>
+						<div class="nav-carousel"><i class="fas fa-angle-left left-arrow"></i><i class="fas fa-angle-right right-arrow"></i></div>
+						<a href="" class="view-more">Смотреть все новинки</a>
 					</div>
-					<div class="nav-carousel"><i class="fas fa-angle-left left-arrow"></i><i class="fas fa-angle-right right-arrow"></i></div>
-					<a href="" class="view-more">Смотреть все новинки</a>
 				</div>
 			</section>
 			<section id="brands">
-				<div class="carousel">
-					<h2>Выберите продукцию по производителю</h2>
-					<div class="carousel-list">
-						<div class="carousel-wrap">
-							<div class="carousel-item">
-								<div class="brand" style="background-image: url(img/brands/Bosch-Logo.png);"></div>
-								<div class="brand" style="background-image: url(img/brands/fanar.png);"></div>
-							</div>
-							<div class="carousel-item">
-								<div class="brand" style="background-image: url(img/brands/free-vector-makita-logo_090875_Makita_logo.png);"></div>
-								<div class="brand" style="background-image: url(img/brands/intertool.png);"></div>
-							</div>
-							<div class="carousel-item">
-								<div class="brand" style="background-image: url(img/brands/groz-tools-logo-27006A9282-seeklogo.png);"></div>
-								<div class="brand" style="background-image: url(img/brands/maxidrill.png);"></div>
-							</div>
-							<div class="carousel-item">
-								<div class="brand" style="background-image: url(img/brands/siito_big.png);"></div>
-								<div class="brand" style="background-image: url(img/brands/miol.png);"></div>
-							</div>
-							<div class="carousel-item">
-								<div class="brand" style="background-image: url(img/brands/sibrtekh_logo.png);"></div>
-								<div class="brand" style="background-image: url(img/brands/ruko.png);"></div>
-							</div>
-							<div class="carousel-item">
-								<div class="brand" style="background-image: url(img/brands/bison-bial_big.png);"></div>
-								<div class="brand" style="background-image: url(img/brands/tulamash_logo.png);"></div>
+				<div class="container">
+					<div class="carousel">
+						<h2>Выберите продукцию по производителю</h2>
+						<div class="carousel-list">
+							<div class="carousel-wrap">
+								<div class="carousel-item">
+									<div class="brand" style="background-image: url(img/brands/Bosch-Logo.png);"></div>
+									<div class="brand" style="background-image: url(img/brands/fanar.png);"></div>
+								</div>
+								<div class="carousel-item">
+									<div class="brand" style="background-image: url(img/brands/free-vector-makita-logo_090875_Makita_logo.png);"></div>
+									<div class="brand" style="background-image: url(img/brands/intertool.png);"></div>
+								</div>
+								<div class="carousel-item">
+									<div class="brand" style="background-image: url(img/brands/groz-tools-logo-27006A9282-seeklogo.png);"></div>
+									<div class="brand" style="background-image: url(img/brands/maxidrill.png);"></div>
+								</div>
+								<div class="carousel-item">
+									<div class="brand" style="background-image: url(img/brands/siito_big.png);"></div>
+									<div class="brand" style="background-image: url(img/brands/miol.png);"></div>
+								</div>
+								<div class="carousel-item">
+									<div class="brand" style="background-image: url(img/brands/sibrtekh_logo.png);"></div>
+									<div class="brand" style="background-image: url(img/brands/ruko.png);"></div>
+								</div>
+								<div class="carousel-item">
+									<div class="brand" style="background-image: url(img/brands/bison-bial_big.png);"></div>
+									<div class="brand" style="background-image: url(img/brands/tulamash_logo.png);"></div>
+								</div>
 							</div>
 						</div>
+						<p class="nav-carousel"><i class="fas fa-angle-left left-arrow"></i><i class="fas fa-angle-right right-arrow"></i></p>
 					</div>
-					<p class="nav-carousel"><i class="fas fa-angle-left left-arrow"></i><i class="fas fa-angle-right right-arrow"></i></p>
 				</div>
 			</section>
 			<section id="about">
